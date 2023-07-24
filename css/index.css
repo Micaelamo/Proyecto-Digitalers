@@ -1,0 +1,181 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+header{
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    background-color:#3a2413;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 24px;
+}
+#logo{
+    border-radius: 100%;
+    margin: 10px;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+
+    list-style: none;
+    padding: 10px;
+}
+li a{
+    color: aliceblue;
+}
+
+.fondoVerde{
+    background-image: url("../assets/img/telaVerde4.png");
+    padding: 0px;
+}
+
+
+#banner{
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+#ProductosDestacados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+#Productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+article{
+    background-color: #A1A962;
+    text-align: center;
+    width: 20%;
+    margin: 20px;
+    box-shadow: 5px 5px 15px 1px black;
+}
+h2{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+article figure{
+    padding: 20px;
+
+}
+
+#verProductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+button{
+    border: 2px solid black;
+    background-color: #A1A962;
+    font-size: 25px;
+    align-items: center;
+    padding: 8px;
+    margin: 15px;
+}
+
+
+
+#mainNosotros{
+    background-image: url("../assets/img/telaVerde2.png");    
+    padding: 20px;
+}
+#Nosotros{
+    display: flex;
+    padding-right: 100px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+#Nosotros p{
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: justify;
+    font-size: 22px;
+    text-shadow: 0px 0px 5px #A1A962;
+}
+#Lugar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #A1A962;
+}
+
+
+#Contacto{
+    background-image: url("../assets/img/fondocontacto.png");
+    padding: 102px;
+}
+.Formulario{
+    background-color: rgb(173, 173, 173);
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 620px;
+    margin-bottom: 20px;
+    margin-left: 620px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    box-shadow: 0px 0px 30px 10px #A1A962;
+    border-radius: 40px;
+}
+.Datos{
+    padding-top: 10px;
+}
+input,textarea{
+    margin: 10px;
+    padding: 10px;
+}
+input{
+    width: 300px;
+}
+
+
+
+footer{
+    background-color: rgb(173, 173, 173);
+}
+footer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+i{
+    padding: 10px;
+    font-size: 25px;
+}
